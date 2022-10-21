@@ -1,0 +1,58 @@
+.table-container{
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.table-container .table-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.table-container .table-info .divider{
+    position: absolute;
+    height: 80%;
+    width: 3px;
+    background-color: #00487E ;
+    border-radius: 10px;
+}
+
+.table-container .table-info .title{
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.table-container .table-info .text{
+    font-size: 12px;
+    color: #969BA0;
+    margin-left: 15px;
+}
+
+.btns-container {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.MuiButton-contained:nth-child(1) {
+    background-color: #00487E !important;
+    color: white !important;
+}
+
+.MuiButton-contained {
+    font-size: 12px;
+}
+
+.MuiButton-contained .MuiSvgIcon-root {
+    width: 16px;
+    height: 16px;
+}
+
+.btns-container button:nth-child(1) {
+    margin-right: 20px;
+}

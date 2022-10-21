@@ -1,0 +1,116 @@
+/* material table style */
+
+.setting .table-container .MuiPaper-root {
+    margin-top: 60px !important;
+    border-left: 1px solid #e5e5e5 !important;
+    border-right: 1px solid #e5e5e5 !important;
+    border-top: 1px solid #e5e5e5 !important;
+}
+
+.setting .MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-9.MuiToolbar-gutters {
+    position: absolute !important;
+    top: -80px !important;
+    right: 0 !important;
+    width: 100% !important;
+    padding: 0px !important;
+}
+
+.setting .MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-9.MuiToolbar-gutters .MTableToolbar-title-13 {
+    display: none !important;
+}
+
+.setting .MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-9.MTableToolbar-highlight-10 {
+    background-color: transparent !important;
+}
+
+.setting .MuiCheckbox-colorSecondary.Mui-checked {
+    color: #00487E !important;
+}
+
+.setting .MuiIconButton-colorSecondary:hover {
+    background-color: rgb(4 0 245 / 4%) !important;
+}
+
+.setting .MuiTable-root svg {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.setting .MuiTable-root thead th:not(th:last-child, th:first-child):after {
+    position: absolute;
+    right: 0;
+    width: 2px;
+    height: 40%;
+    background-color: #e5e5e5;
+    content: "";
+}
+
+.setting .MuiTable-root tbody tr {
+    transition: .5s;
+}
+
+.setting .MuiTable-root tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.setting .MuiTableCell-head {
+    font-weight: 600 !important;
+}
+
+.setting .MuiTablePagination-input {
+    display: none !important;
+}
+
+.setting{
+    padding: 40px;
+    overflow: auto;
+}
+
+.setting .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.setting .cards .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 45px;
+    color: #303030;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    background-position: bottom;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.setting .cards .card .number{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.setting .cards .card .title{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.setting .cards .card svg{
+    font-size: 30px;
+    fill: #00487E;
+}
+
+.setting .cards .card.active{
+    background: linear-gradient(#00487E, #2a83c7);
+    color: white;
+}
+
+.setting .cards .card.active svg{
+    fill: white;
+}
+
+.setting .setting_container{
+    margin-top: 20px;
+}

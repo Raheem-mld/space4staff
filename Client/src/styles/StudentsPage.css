@@ -1,0 +1,92 @@
+/* material table style */
+
+.students .table-container .MuiPaper-root {
+    margin-top: 60px !important;
+    border-left: 1px solid #e5e5e5 !important;
+    border-right: 1px solid #e5e5e5 !important;
+    border-top: 1px solid #e5e5e5 !important;
+}
+
+.students .MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-9.MuiToolbar-gutters {
+    position: absolute !important;
+    top: -80px !important;
+    right: 0 !important;
+    width: 100% !important;
+    padding: 0px !important;
+}
+
+.students .MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-9.MuiToolbar-gutters .MTableToolbar-title-13 {
+    display: none !important;
+}
+
+.students .MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-9.MTableToolbar-highlight-10 {
+    background-color: transparent !important;
+}
+
+.students .MuiCheckbox-colorSecondary.Mui-checked {
+    color: #00487E !important;
+}
+
+.students .MuiIconButton-colorSecondary:hover {
+    background-color: rgb(4 0 245 / 4%) !important;
+}
+
+.students .MuiTable-root svg {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.students .MuiTable-root thead th:not(th:last-child, th:first-child):after {
+    position: absolute;
+    right: 0;
+    width: 2px;
+    height: 40%;
+    background-color: #e5e5e5;
+    content: "";
+}
+
+.students .MuiTable-root tbody tr {
+    transition: .5s;
+}
+
+.students .MuiTable-root tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.students .MuiTableCell-head {
+    font-weight: 600 !important;
+}
+
+.students .MuiTablePagination-input {
+    display: none !important;
+}
+
+.students {
+    padding: 40px;
+    overflow: auto;
+}
+
+.students .btns-container {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.students .MuiButton-contained:nth-child(1) {
+    background-color: #00487E !important;
+    color: white !important;
+}
+
+.students .MuiButton-contained {
+    font-size: 12px;
+}
+
+.students .MuiButton-contained .MuiSvgIcon-root {
+    width: 16px;
+    height: 16px;
+}
+
+.students .btns-container button:nth-child(1) {
+    margin-right: 20px;
+}
